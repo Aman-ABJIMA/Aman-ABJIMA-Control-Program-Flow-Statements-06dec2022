@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Dec062022 {
     public class gradeOfStudents {
         public static void Main(string[] args)
@@ -9,12 +9,12 @@ namespace Dec062022 {
             int e = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Marks of Maths:");
             int m = Convert.ToInt32(Console.ReadLine());
-            int total = h + e + m;
+            float total = h + e + m;
             double percentage = (total / 3);
             Console.Clear();
-            if (percentage >= 90F && percentage <= 100F)
+            if (percentage > 90F && percentage <= 100F)
                 Console.WriteLine("Grade: A");
-            else if (percentage >= 80F && percentage <= 89F)
+            else if (percentage >= 80F && percentage <= 90F)
                 Console.WriteLine("Grade: B");
             else if (percentage >= 70F && percentage <= 79F)
                 Console.WriteLine("Grade: C");
