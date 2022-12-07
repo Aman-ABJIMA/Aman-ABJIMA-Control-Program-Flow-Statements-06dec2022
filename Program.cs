@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 int count = 0;
 here:
-Console.WriteLine("Enter a digit in range of \"0-7\"");
+Console.WriteLine("Enter a digit in range of \"1-7\"");
 int day=Convert.ToInt16(Console.ReadLine());
 switch(day)
 {
